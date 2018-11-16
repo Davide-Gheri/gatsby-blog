@@ -98,6 +98,11 @@ export const CategoryLink = styled(Link)`
   }
 `;
 
+export const RelatedWrapper = styled.aside`
+  position: relative;
+  padding: 0 4vw;
+`;
+
 export const ReadNextFeed = styled.div`
   display: flex;
   flex-wrap: wrap;

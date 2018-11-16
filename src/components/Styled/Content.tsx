@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Content = styled.div`
-position: relative;
+  position: relative;
   margin: 0 auto;
   padding: 70px 100px 0;
   min-height: 230px;

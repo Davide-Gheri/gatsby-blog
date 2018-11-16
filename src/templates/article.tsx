@@ -16,7 +16,10 @@ import {
   ArticleTitle,
   ArticleFooter,
   ArticleImage,
+  RelatedWrapper,
+  ReadNextFeed,
 } from '../components/Article';
+import { ReadNextCard } from '../components/Cards/ReadNextCard';
 
 const ArticleTemplate = ({ data }: ArticleQuery) => {
   const article = data.strapiArticle;
@@ -45,9 +48,17 @@ const ArticleTemplate = ({ data }: ArticleQuery) => {
           </ArticleImage>
           <ArticleContent content={article.content || ''}/>
           <ArticleFooter>
+
           </ArticleFooter>
         </Article>
       </Container>
+      <RelatedWrapper>
+        <Container>
+          <ReadNextFeed>
+            {article.category && <ReadNextCard category={article.category}/>}
+          </ReadNextFeed>
+        </Container>
+      </RelatedWrapper>
     </Layout>
   );
 };
