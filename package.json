@@ -1,0 +1,58 @@
+{
+  "name": "art-blog-gatsby",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Davide Gheri <davide@davidegheri.com>",
+  "dependencies": {
+    "@davidegheri/storage": "^3.0.1",
+    "babel-plugin-styled-components": "^1.8.0",
+    "draft-js": "^0.10.5",
+    "draft-js-plugins-editor": "^2.1.1",
+    "draftjs-md-converter": "^1.1.1",
+    "gatsby": "^2.0.19",
+    "gatsby-image": "^2.0.15",
+    "gatsby-plugin-manifest": "^2.0.5",
+    "gatsby-plugin-offline": "^2.0.11",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-sharp": "^2.0.7",
+    "gatsby-plugin-styled-components": "^3.0.1",
+    "gatsby-plugin-typescript": "^2.0.1",
+    "gatsby-source-filesystem": "^2.0.4",
+    "gatsby-source-strapi": "^0.0.5",
+    "gatsby-transformer-sharp": "^2.1.4",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "normalize.css": "^8.0.1",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0",
+    "remove-markdown": "^0.3.0",
+    "styled-components": "^4.1.1"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/draft-js": "^0.10.26",
+    "@types/lodash": "^4.14.118",
+    "@types/node": "^10.12.7",
+    "@types/react": "^16.7.6",
+    "@types/react-dom": "^16.0.9",
+    "@types/react-helmet": "^5.0.7",
+    "@types/remove-markdown": "^0.1.1",
+    "@types/styled-components": "^4.1.0",
+    "prettier": "^1.14.2",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "typescript": "^3.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  }
+}
